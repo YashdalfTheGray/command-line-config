@@ -13,3 +13,4 @@ doskey gl=git pull $*
 doskey ggl=git pull origin master
 doskey gsta=git stash $*
 doskey gl=git log
+doskey gco=git checkout $*
