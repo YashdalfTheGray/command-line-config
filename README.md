@@ -22,6 +22,7 @@ Just running `env-setup.bat` in a Command Prompt will enable the shortcuts liste
 
 ## Permanent Setup
 This one is a little more involved but it basically makes `env-setup.bat` the startup script for Command Prompt. Let's get started...
+
 1. Open up your start menu/page and search for "Command Prompt".
 2. Right clicking on the search item will open the contextual menu. Click on "Open File Location".
 3. Once the location of the shortcut is open, right click on the shortcut and select "Properties".
