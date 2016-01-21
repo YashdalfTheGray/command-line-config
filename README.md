@@ -13,6 +13,7 @@
 | `ggl`    | `git pull origin master`             |
 | `gsta`   | `git stash`                          |
 | `gl`     | `git log`                            |
+| `gco`    | `git checkout`                       |
 
 ## Getting started
 Download (or copy) the contents of [`env-setup.bat`](https://raw.githubusercontent.com/YashdalfTheGray/command-line-config/master/env-setup.bat) and save it.
