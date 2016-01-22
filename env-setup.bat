@@ -14,3 +14,6 @@ doskey ggl=git pull origin master
 doskey gsta=git stash $*
 doskey gl=git log
 doskey gco=git checkout $*
+doskey gb=git branch $*
+doskey gd=git diff $*
+doskey gcp=git cherry-pick $*
