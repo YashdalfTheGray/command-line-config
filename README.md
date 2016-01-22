@@ -14,6 +14,9 @@
 | `gsta`   | `git stash`                          |
 | `gl`     | `git log`                            |
 | `gco`    | `git checkout`                       |
+| `gb`     | `git branch`                         |
+| `gd`     | `git diff`                           |
+| `gcp`    | `git cherry-pick`                    |
 
 ## Getting started
 Download (or copy) the contents of [`env-setup.bat`](https://raw.githubusercontent.com/YashdalfTheGray/command-line-config/master/env-setup.bat) and save it.
