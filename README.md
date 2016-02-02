@@ -12,7 +12,7 @@
 | `gl`     | `git pull`                           |
 | `ggl`    | `git pull origin master`             |
 | `gsta`   | `git stash`                          |
-| `gl`     | `git log`                            |
+| `glo`    | `git log`                            |
 | `gco`    | `git checkout`                       |
 | `gb`     | `git branch`                         |
 | `gd`     | `git diff`                           |
