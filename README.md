@@ -30,7 +30,7 @@ This one is a little more involved but it basically makes `env-setup.bat` the st
 1. Open up your start menu/page and search for "Command Prompt".
 2. Right clicking on the search item will open the contextual menu. Click on "Open File Location".
 3. Once the location of the shortcut is open, right click on the shortcut and select "Properties".
-4. In the Shortcut tab, in the Target text box, add ` /K path/to/env-setup.bat` and click OK. The full target should be `%windir%\system32\cmd.exe /K path/to/env-setup.bat`.
+4. In the Shortcut tab, in the Target text box, add ` /K path\to\env-setup.bat` and click OK. The full target should be `%windir%\system32\cmd.exe /K path\to\env-setup.bat`.
 5. Once you open Command Prompt again, you should have some new shortcuts!
 
 **NOTE**: You will not be able to use these shortcuts in batch files, these are purely to save some time typing it in. Also, this change is only made on the shortcut so it will only be active if the Command Prompt is run from the shortcut. 
