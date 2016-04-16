@@ -16,8 +16,7 @@ doskey gpl=git pull $*
 doskey ggl=git pull origin master
 doskey gsta=git stash $*
 doskey gl=git log
-doskey glg=git lg
-doskey glol=git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
+doskey glol=git lg
 doskey gco=git checkout $*
 doskey gb=git branch $*
 doskey gd=git diff $*
