@@ -4,6 +4,9 @@
 | Shortcut | Command                              |
 |----------|--------------------------------------|
 | `clear`  | `cls` (too used to the Unix command) |
+| `c`      | `cls`                                |
+| `ls`     | `dir`                                |
+| `l`      | `dir`                                |
 | `gst`    | `git status`                         |
 | `ga`     | `git add`                            |
 | `gaa`    | `git add --all`                      |
@@ -17,6 +20,7 @@
 | `gb`     | `git branch`                         |
 | `gd`     | `git diff`                           |
 | `gcp`    | `git cherry-pick`                    |
+| `glol`   | `git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit`                                |
 
 ## Getting started
 Download (or copy) the contents of [`env-setup.bat`](https://raw.githubusercontent.com/YashdalfTheGray/command-line-config/master/env-setup.bat) and save it.
