@@ -16,7 +16,7 @@
 | `ggl`    | `git pull origin master`             |
 | `gsta`   | `git stash`                          |
 | `glo`    | `git log`                            |
-| `glol`   | `git lg`                             |
+| `glol`   | `git lg` (see below)                 |
 | `gco`    | `git checkout`                       |
 | `gb`     | `git branch`                         |
 | `gd`     | `git diff`                           |
@@ -40,4 +40,4 @@ This one is a little more involved but it basically makes `env-setup.bat` the st
 **NOTE**: You will not be able to use these shortcuts in batch files, these are purely to save some time typing it in. Also, this change is only made on the shortcut so it will only be active if the Command Prompt is run from the shortcut. 
 
 ## Adding `git lg`
-This is an alias to the a rather lengthy `git log` command. The alias can be gotten by running `git config --global alias.lg log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit`
+This is an alias to a rather lengthy `git log` command. The alias can be added by running `git config --global alias.lg log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit`
