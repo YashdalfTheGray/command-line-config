@@ -16,11 +16,11 @@
 | `ggl`    | `git pull origin master`             |
 | `gsta`   | `git stash`                          |
 | `glo`    | `git log`                            |
+| `glol`   | `git lg`                             |
 | `gco`    | `git checkout`                       |
 | `gb`     | `git branch`                         |
 | `gd`     | `git diff`                           |
 | `gcp`    | `git cherry-pick`                    |
-| `glol`   | `git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit`                                |
 
 ## Getting started
 Download (or copy) the contents of [`env-setup.bat`](https://raw.githubusercontent.com/YashdalfTheGray/command-line-config/master/env-setup.bat) and save it.
@@ -38,3 +38,6 @@ This one is a little more involved but it basically makes `env-setup.bat` the st
 5. Once you open Command Prompt again, you should have some new shortcuts!
 
 **NOTE**: You will not be able to use these shortcuts in batch files, these are purely to save some time typing it in. Also, this change is only made on the shortcut so it will only be active if the Command Prompt is run from the shortcut. 
+
+## Adding `git lg`
+This is an alias to the a rather lengthy `git log` command. The alias can be gotten by running `git config --global alias.lg log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit`
